@@ -1,6 +1,6 @@
 name: "Prusa Connect RTSP"
 description: "A simple video translator for Prusa Connect."
-version: "0.1.4"
+version: "0.1.5"
 slug: "prusa_conncect_rtsp_homeassistant"
 init: false
 arch:
@@ -24,4 +24,4 @@ schema:
   FRAME_CAPTURE_DELAY: float?
   CAMERA_CYCLE_DELAY: float?
   CONNECTION_TIMEOUT_DELAY: float?
-  log_level: list(debug|info|warning|error|critical)?
+  log_level: list(debug|info|warning|error|critical|trace)?

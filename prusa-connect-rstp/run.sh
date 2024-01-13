@@ -4,9 +4,9 @@ trap "echo SIGINT received, exiting...; exit 0" INT
 
 CAMERA_URLS=$(bashio::config 'CAMERA_URLS')
 TOKENS=$(bashio::config 'TOKENS')
-FRAME_CAPTURE_DELAY=$(bashio::config 'FRAME_CAPTURE_DELAY')
-CAMERA_CYCLE_DELAY=$(bashio::config 'CAMERA_CYCLE_DELAY')
-CONNECTION_TIMEOUT_DELAY=$(bashio::config 'CONNECTION_TIMEOUT_DELAY')
+FRAME_CAPTURE_DELAY=$(bashio::config 'FRAME_CAPTURE_DELAY' 1)
+CAMERA_CYCLE_DELAY=$(bashio::config 'CAMERA_CYCLE_DELAY' 10)
+CONNECTION_TIMEOUT_DELAY=$(bashio::config 'CONNECTION_TIMEOUT_DELAY' 5)
 
 
 bashio::log.info "     ██╗████████╗███████╗███████╗██████╗ ██████╗"
@@ -25,7 +25,7 @@ bashio::log.info ""
 declare log_level
 
 log_level=$(bashio::string.lower "$(bashio::config log_level invalid)")
-if [ "$log_level" = "invalid" ]; then
+if [ "$log_level" = "invalid" ] || [ "$log_level" = "" ]; then
   bashio::log.magenta 'Received invalid log_level from config, fallback to info'
   log_level="info"
 fi
