@@ -1,7 +1,11 @@
 # Changelog
 
+## 0.1.8
+
+- Disabled unnecessary log_level log
+
 ## 0.1.7
-- fixed s6 error
+- Fixed s6 error
 
 ## 0.1.6
 

@@ -26,7 +26,7 @@ declare log_level
 
 log_level=$(bashio::string.lower "$(bashio::config log_level invalid)")
 if [ "$log_level" = "invalid" ] || [ "$log_level" = "" ]; then
-  bashio::log.magenta 'Received invalid log_level from config, fallback to info'
+  #bashio::log.magenta 'Received invalid log_level from config, fallback to info'
   log_level="info"
 fi
 bashio::log.level "$log_level"

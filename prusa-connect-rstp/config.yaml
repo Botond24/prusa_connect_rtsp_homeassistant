@@ -1,6 +1,6 @@
 name: "Prusa Connect RTSP"
 description: "A simple video translator for Prusa Connect."
-version: "0.1.7"
+version: "0.1.8"
 slug: "prusa-conncect-rtsp"
 url: "https://github.com/Botond24/prusa_connect_rtsp_homeassistant"
 init: false
