@@ -1,5 +1,8 @@
 # Changelog
 
+## 0.1.7
+- fixed s6 error
+
 ## 0.1.6
 
 - Shortened slug
