@@ -31,5 +31,5 @@ If you would like to support this add-on, please consider supporting the origina
 [armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
 [pcrstp]: https://github.com/jtee3d/prusa_connect_rtsp
 [i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
-[repository-badge]: https://img.shields.io/badge/Add%20repository%20to%20my-Home%20Assistant-41BDF5?logo=home-assistant&style=for-the-badge
+[repository-badge]: https://my.home-assistant.io/badges/supervisor_add_addon_repository.svg
 [repository-url]: https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https://github.com/Botond24/prusa_connect_rtsp_homeassistant
