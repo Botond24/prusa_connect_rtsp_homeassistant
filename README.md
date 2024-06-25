@@ -8,17 +8,6 @@ RSTP/MJPG video translator for Prusa Connect.
 
 You can use this add-on to install Prusa Connect RSTP.  Prusa Connect RSTP can be used as a video translation layer between your cameras and Prusa Connect. For more information, please see [Prusa Connect RSTP][pcrstp]
 
-## Installation
-
-Follow these steps to get the add-on installed on your system:
-
-[![Add repository on my Home Assistant][repository-badge]][repository-url]
-
-1. Click on the above badge.
-2. Navigate in your Home Assistant frontend to **Settings** -> **Add-ons** -> **Add-on store**.
-3. Find the "Prusa Connect RTSP" add-on and click it.
-4. Click on the "INSTALL" button.
-
 ## Support
 If you would like to support this add-on, please consider supporting the original creator (@jtee3d) on:
 
@@ -31,5 +20,3 @@ If you would like to support this add-on, please consider supporting the origina
 [armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
 [pcrstp]: https://github.com/jtee3d/prusa_connect_rtsp
 [i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
-[repository-badge]: https://my.home-assistant.io/badges/supervisor_add_addon_repository.svg
-[repository-url]: https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https://github.com/Botond24/prusa_connect_rtsp_homeassistant
