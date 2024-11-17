@@ -59,4 +59,4 @@ In case you've found a bug, please [open an issue on our GitHub][issue].
 
 [issue]: https://github.com/Botond24/prusa_connect_rtsp_homeassistant/issues
 [repository-badge]: https://img.shields.io/badge/Add%20repository%20to%20my-Home%20Assistant-41BDF5?logo=home-assistant&style=for-the-badge
-[\[repository-url\]: https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https://github.com/Botond24/hassio-addons](https://github.com/Botond24/hassio-addons)
+[repository-url]: https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https://github.com/Botond24/hassio-addons](https://github.com/Botond24/hassio-addons)
