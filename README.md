@@ -6,6 +6,10 @@ RSTP/MJPG video translator for Prusa Connect.
 
 ## About
 
+The repository has been moved into my own [hassio-addons](https://github.com/Botond24/hassio-addons) repository it can be install by clicking the following shield:
+
+[![Add repository on my Home Assistant][repository-badge]][repository-url]
+
 You can use this add-on to install Prusa Connect RSTP.  Prusa Connect RSTP can be used as a video translation layer between your cameras and Prusa Connect. For more information, please see [Prusa Connect RSTP][pcrstp]
 
 ## Support
@@ -20,3 +24,5 @@ If you would like to support this add-on, please consider supporting the origina
 [armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
 [pcrstp]: https://github.com/jtee3d/prusa_connect_rtsp
 [i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
+[repository-badge]: https://img.shields.io/badge/Add%20repository%20to%20my-Home%20Assistant-41BDF5?logo=home-assistant&style=for-the-badge
+[\[repository-url\]: https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https://github.com/Botond24/hassio-addons](https://github.com/Botond24/hassio-addons)
