@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.9
+
+- Possibly fix camera offline issue [#1](https://github.com/Botond24/prusa_connect_rtsp_homeassistant/issues/1)
+
 ## 0.1.8
 
 - Disabled unnecessary log_level log

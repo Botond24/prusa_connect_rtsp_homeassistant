@@ -67,7 +67,7 @@ while true; do
                 -vframes 1 \
                 -pix_fmt yuvj420p \
                 -timeout "$CONNECTION_TIMEOUT_DELAY" \
-                output_$i.jpg
+                output_$i.jpg || true
         else
             ffmpeg \
                 -loglevel error \
@@ -77,7 +77,7 @@ while true; do
                 -vframes 1 \
                 -pix_fmt yuvj420p \
                 -timeout "$CONNECTION_TIMEOUT_DELAY" \
-                output_$i.jpg
+                output_$i.jpg || true
         fi
 
         if [ $? -eq 0 ]; then
@@ -89,7 +89,7 @@ while true; do
                 --data-binary "@output_$i.jpg" \
                 --no-progress-meter \
                 --compressed \
-                --max-time "$CONNECTION_TIMEOUT_DELAY"
+                --max-time "$CONNECTION_TIMEOUT_DELAY" || true
         else
             bashio::log.error "FFmpeg returned an error for camera $((i + 1))."
         fi

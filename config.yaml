@@ -1,6 +1,6 @@
 name: "Prusa Connect RTSP"
 description: "A simple video translator for Prusa Connect."
-version: "0.1.8"
+version: "0.1.9"
 slug: "prusa-conncect-rtsp"
 url: "https://github.com/Botond24/hassio-addons"
 init: false
